@@ -14,11 +14,11 @@ function App() {
           <Route path="/welcome">
             <Welcome />
           </Route>
-          <Route path="/products">
-            <Products />
-          </Route>
           <Route path="/products/:productId">
             <ProductDetail />
+          </Route>
+          <Route path="/products">
+            <Products />
           </Route>
         </Switch>
       </main>
