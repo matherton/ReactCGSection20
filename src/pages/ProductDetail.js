@@ -1,7 +1,9 @@
 const ProductDetail = () => {
-  <section>
-    <h1>Product Detail</h1>
-  </section>;
+  return (
+    <section>
+      <h1>Product Detail</h1>
+    </section>
+  );
 };
 
 export default ProductDetail;
